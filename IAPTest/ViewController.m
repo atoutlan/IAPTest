@@ -19,8 +19,9 @@
     [super viewDidLoad];
     // 测试
     [[StoreIPAManager shareSIAPManager] startPurchWithID:@"productId" completeHandle:^(SIAPPurchType type,NSData *data) {
-        //请求事务回调类型，返回的数据，
-        //结束指示器。
+        // 请求事务回调类型，返回的数据，
+        // 结束指示器。
+        // 根据返回 type 判断数据
         NSLog(@"SIAPPurchType ：%d", type);
     }];
 }
