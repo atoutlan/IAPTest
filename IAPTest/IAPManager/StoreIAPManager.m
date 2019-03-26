@@ -1,30 +1,30 @@
 //
-//  StoreIPAManager.m
+//  StoreIAPManager.m
 //  i-xinghui
 //
 //  Created by OUTLAN on 2019/3/25.
 //  Copyright © 2019 蜗牛学堂. All rights reserved.
 //
 
-#import "StoreIPAManager.h"
+#import "StoreIAPManager.h"
 #import <StoreKit/StoreKit.h>
 
-@interface StoreIPAManager ()<SKPaymentTransactionObserver,SKProductsRequestDelegate>{
+@interface StoreIAPManager ()<SKPaymentTransactionObserver,SKProductsRequestDelegate>{
     NSString            *_purchID;
     IAPCompletionHandle  _handle;
 }
 
 @end
 
-@implementation StoreIPAManager
+@implementation StoreIAPManager
 
 #pragma mark - ♻️life cycle
 + (instancetype)shareSIAPManager{
     
-    static StoreIPAManager *IAPManager = nil;
+    static StoreIAPManager *IAPManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken,^{
-        IAPManager = [[StoreIPAManager alloc] init];
+        IAPManager = [[StoreIAPManager alloc] init];
     });
     return IAPManager;
 }

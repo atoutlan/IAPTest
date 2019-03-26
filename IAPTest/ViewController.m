@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "StoreIPAManager.h"
+#import "StoreIAPManager.h"
 
 @interface ViewController ()
 
@@ -17,14 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+- (IBAction)beginIAP:(UIButton *)sender {
     // 测试
-    [[StoreIPAManager shareSIAPManager] startPurchWithID:@"productId" completeHandle:^(SIAPPurchType type,NSData *data) {
+    [[StoreIAPManager shareSIAPManager] startPurchWithID:@"productId" completeHandle:^(SIAPPurchType type,NSData *data) {
         // 请求事务回调类型，返回的数据，
         // 结束指示器。
         // 根据返回 type 判断数据
         NSLog(@"SIAPPurchType ：%d", type);
     }];
 }
-
 
 @end

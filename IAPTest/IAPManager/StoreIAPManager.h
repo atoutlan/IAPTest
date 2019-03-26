@@ -1,5 +1,5 @@
 //
-//  StoreIPAManager.h
+//  StoreIAPManager.h
 //  i-xinghui
 //
 //  Created by OUTLAN on 2019/3/25.
@@ -21,7 +21,7 @@ typedef enum {
 
 typedef void (^IAPCompletionHandle)(SIAPPurchType type,NSData *data);
 
-@interface StoreIPAManager : NSObject
+@interface StoreIAPManager : NSObject
 
 /**
  获取内购业务对象

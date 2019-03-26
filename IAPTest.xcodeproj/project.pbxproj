@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631C86222249D3BB00476052 /* StoreIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C86212249D3BB00476052 /* StoreIAPManager.m */; };
 		63B7FD862249CE6000CE145C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B7FD852249CE6000CE145C /* AppDelegate.m */; };
 		63B7FD892249CE6000CE145C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B7FD882249CE6000CE145C /* ViewController.m */; };
 		63B7FD8C2249CE6000CE145C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B7FD8A2249CE6000CE145C /* Main.storyboard */; };
 		63B7FD8E2249CE6300CE145C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B7FD8D2249CE6300CE145C /* Assets.xcassets */; };
 		63B7FD912249CE6300CE145C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B7FD8F2249CE6300CE145C /* LaunchScreen.storyboard */; };
 		63B7FD942249CE6300CE145C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B7FD932249CE6300CE145C /* main.m */; };
-		63B7FD9C2249CEB700CE145C /* StoreIPAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B7FD9B2249CEB700CE145C /* StoreIPAManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		631C86202249D3BB00476052 /* StoreIAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreIAPManager.h; sourceTree = "<group>"; };
+		631C86212249D3BB00476052 /* StoreIAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreIAPManager.m; sourceTree = "<group>"; };
 		63B7FD812249CE6000CE145C /* IAPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B7FD842249CE6000CE145C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63B7FD852249CE6000CE145C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		63B7FD902249CE6300CE145C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63B7FD922249CE6300CE145C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63B7FD932249CE6300CE145C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63B7FD9A2249CEB700CE145C /* StoreIPAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreIPAManager.h; sourceTree = "<group>"; };
-		63B7FD9B2249CEB700CE145C /* StoreIPAManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreIPAManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 		63B7FD9D2249CF0B00CE145C /* IAPManager */ = {
 			isa = PBXGroup;
 			children = (
-				63B7FD9A2249CEB700CE145C /* StoreIPAManager.h */,
-				63B7FD9B2249CEB700CE145C /* StoreIPAManager.m */,
+				631C86202249D3BB00476052 /* StoreIAPManager.h */,
+				631C86212249D3BB00476052 /* StoreIAPManager.m */,
 			);
 			path = IAPManager;
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 			files = (
 				63B7FD892249CE6000CE145C /* ViewController.m in Sources */,
 				63B7FD942249CE6300CE145C /* main.m in Sources */,
-				63B7FD9C2249CEB700CE145C /* StoreIPAManager.m in Sources */,
+				631C86222249D3BB00476052 /* StoreIAPManager.m in Sources */,
 				63B7FD862249CE6000CE145C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
