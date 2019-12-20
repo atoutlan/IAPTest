@@ -26,7 +26,6 @@
         // 结束指示器。
         // 根据返回 type 判断数据
         NSLog(@"SIAPPurchType ：%d", type);
-        
     }];
 }
 
