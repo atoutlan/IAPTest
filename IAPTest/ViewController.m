@@ -20,7 +20,7 @@
 }
 
 - (IBAction)beginIAP:(UIButton *)sender {
-    //测试
+    //测试 
     [[StoreIAPManager shareSIAPManager] startPurchWithID:@"productId" completeHandle:^(SIAPPurchType type,NSData *data) {
         // 请求事务回调类型，返回的数据，
         // 结束指示器。
