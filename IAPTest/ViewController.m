@@ -17,10 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    
-    // 主分支
+
 }
 
 - (IBAction)beginIAP:(UIButton *)sender {
