@@ -20,7 +20,7 @@
 
     // 主分支001
     // test 001
-    // 主分支002
+    // test 002
 }
 
 - (IBAction)beginIAP:(UIButton *)sender {
